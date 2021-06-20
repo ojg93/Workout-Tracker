@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const db = require('../models');
+const db = require("/Users/mari/gt-bootcamp/Homework/Workout-tracker/models");
 
 mongoose.connect('mongodb://localhost/workout', {
   useNewUrlParser: true,
